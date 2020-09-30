@@ -2,7 +2,7 @@ x_content = [];
 y_content = [];
 
 fetch(
-    'http://api.openweathermap.org/data/2.5/forecast?id=3523127&APPID=256fa912aac28ad19015a6afc64b4157'
+    'https://api.openweathermap.org/data/2.5/forecast?id=3523127&APPID=256fa912aac28ad19015a6afc64b4157'
 )
     .then((response) => response.json())
     .then((response) => {
