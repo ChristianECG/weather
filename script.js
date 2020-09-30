@@ -22,7 +22,7 @@ fetch(
             if (hour + 21 < 24) hour = hour + 21;
             else hour = hour - 3;
 
-            x_content.push(hour);
+            x_content.push(toString(hour) + ':00');
             y_content.push(temp);
         }
     })
